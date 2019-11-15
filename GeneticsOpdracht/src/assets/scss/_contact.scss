@@ -1,0 +1,38 @@
+.contact-input {
+  width: 45%;
+  min-width: 250px;
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-gap: 1rem;
+  margin-top: 2rem;
+  grid-template-areas: "contact-info" "contact-form" "contact-map";
+}
+
+// Grid areas
+.contact-info {
+  grid-area: contact-info;
+}
+
+.contact-form {
+  grid-area: contact-form;
+}
+
+.contact-map {
+  grid-area: contact-map;
+  text-align: center;
+}
+
+// Media query's
+@media all and (max-width: 562px) {
+  .contact-info {
+    grid-area: contact-info;
+    text-align: center;
+  }
+
+  .contact-form {
+    grid-area: contact-form;
+    text-align: center;
+  }
+}

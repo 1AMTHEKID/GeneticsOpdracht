@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "comic-sans";
+  font-style: normal;
+  src: url("assets/fonts/sans.ttf") format("truetype");
+}
+
+p {
+  font-family: "comic-sans";
+}
+
+h1, h2, h3, h4 {
+  font-family: "comic-sans", Sans;
+}
+
+a {
+  font-family: "comic-sans", Sans;
+}
+
+.title {
+  font-size: 35px;
+  -webkit-text-stroke: 0.1px black;
+  text-stroke: 0.1px black;
+  font-family: "comic-sans", Sans; 
+  margin: 0;
+}
+
+.title2 {
+  font-size: 30px;
+  -webkit-text-stroke: 0.1px black;
+  text-stroke: 0.1px black;
+  font-family: "comic-sans", Sans;
+  margin: 0;
+}
+
+.title3 {
+  font-size: 20px;
+  -webkit-text-stroke: 0.1px black;
+  text-stroke: 0.1px black;
+  font-family: "comic-sans", Sans;
+  margin: 0;
+}
